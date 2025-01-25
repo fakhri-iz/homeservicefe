@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# Full-Stack Laravel 11 React TypeScript: Web Book Home Service
+Built using Laravel 11 as the back-end and React Typescript as the front-end.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Develop:
+- Design and implement Entity Relationship Diagram (ERD) to build a well-structured database and create relationships between tables in the project database.
+- Build a Content Management System (CMS) using Laravel 11 and Filament PHP, enabling efficient and fast data management.
+- Create a robust RESTful API with Laravel, and test the API using Postman to ensure the application is ready to be used in real scenarios.
+- Create reusable components in React JS, which allows code to be more modular and manageable.
+- Use React JS hooks such as useState and useEffect to manage state and side effects in applications more efficiently.
+- Consume APIs from Laravel into React JS applications dynamically, ensuring seamless integration between backend and frontend.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backe-end File
 
-## Expanding the ESLint configuration
+[homeserfice](https://github.com/fakhri-iz/homeservice)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## View
+###### Home Display
+![Home](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/index.png)
 
-- Configure the top-level `parserOptions` property like this:
+###### Category Display
+![Category](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/category.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+###### Service Detail Display
+![Service Detail](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/service-detail.png)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+###### Chart Display
+![Chart](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/chart.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+###### Booking Display
+![Booking-start](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/booking-start.png)
+![Booking-payment](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/booking-payment.png)
+![Booking-finish](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/booking-finished.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+###### Check Booking Display
+![Check-booking](https://github.com/fakhri-iz/homeservicefe/blob/main/public/assets/images/check%20booking.png)
+
+
